@@ -48,7 +48,7 @@
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
-        <widget class="QLabel" name="label">
+        <widget class="QLabel" name="label_titulo">
          <property name="maximumSize">
           <size>
            <width>16777215</width>
@@ -76,7 +76,7 @@
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_4">
          <item>
-          <widget class="QLabel" name="label_7">
+          <widget class="QLabel" name="label_fotouser">
            <property name="minimumSize">
             <size>
              <width>40</width>
@@ -100,7 +100,7 @@ border-radius: 20px; /* Esto lo hace circular */</string>
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="label_6">
+          <widget class="QLabel" name="label_nameuser">
            <property name="text">
             <string>Marco</string>
            </property>
@@ -132,14 +132,14 @@ border-radius: 20px; /* Esto lo hace circular */</string>
           <number>4</number>
          </property>
          <item>
-          <widget class="QLabel" name="label_2">
+          <widget class="QLabel" name="label_esccodigo">
            <property name="text">
             <string>Escanear Código / Buscar</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit">
+          <widget class="QLineEdit" name="lineEdit_barrabusqueda">
            <property name="maximumSize">
             <size>
              <width>16777215</width>
@@ -171,7 +171,7 @@ border-radius: 20px; /* Esto lo hace circular */</string>
           <enum>QLayout::SetFixedSize</enum>
          </property>
          <item>
-          <widget class="QLabel" name="label_3">
+          <widget class="QLabel" name="label_cantidad">
            <property name="maximumSize">
             <size>
              <width>60</width>
@@ -184,7 +184,7 @@ border-radius: 20px; /* Esto lo hace circular */</string>
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit_2">
+          <widget class="QLineEdit" name="lineEdit_cant">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -314,14 +314,14 @@ QHeaderView::section {
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_5">
          <item>
-          <widget class="QLabel" name="label_4">
+          <widget class="QLabel" name="label_totalapagar">
            <property name="text">
             <string>TOTAL A PAGAR:</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="label_5">
+          <widget class="QLabel" name="label_dinero">
            <property name="styleSheet">
             <string notr="true">color: rgb(81, 244, 0);
 font-size: 60px;</string>
