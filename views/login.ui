@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>1105</width>
     <height>600</height>
    </rect>
   </property>
@@ -17,6 +17,9 @@
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <widget class="QFrame" name="frame_2">
+      <property name="styleSheet">
+       <string notr="true">border-image: url(&quot;img/bg.png&quot;);</string>
+      </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
       </property>
@@ -30,13 +33,13 @@
       <property name="minimumSize">
        <size>
         <width>200</width>
-        <height>0</height>
+        <height>200</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
         <width>200</width>
-        <height>150</height>
+        <height>200</height>
        </size>
       </property>
       <property name="frameShape">
@@ -88,7 +91,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit"/>
+        <widget class="QLineEdit" name="txt_username"/>
        </item>
        <item>
         <widget class="QLabel" name="label_3">
@@ -104,7 +107,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_2">
+        <widget class="QLineEdit" name="txt_password">
          <property name="echoMode">
           <enum>QLineEdit::Password</enum>
          </property>
@@ -113,7 +116,7 @@
        <item>
         <widget class="QPushButton" name="btn_login">
          <property name="text">
-          <string>PushButton</string>
+          <string>Iniciar sesión</string>
          </property>
         </widget>
        </item>
@@ -127,7 +130,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1105</width>
      <height>26</height>
     </rect>
    </property>
